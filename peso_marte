@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Tu peso en Marte </title>
+  </head>
+  <body>
+    <h1> Tu peso en un lugar donde pesas menos. </h1>
+    <p> Todos somos conscientes de cuanto pesamos (aunque no nos guste). Pero, podemos pesar menos en otro planeta.
+    <h2> Alguna vez te has preguntado cuanto pesarias en un planeta distinto a la Tierra? </h2>
+    <p> En Marte, la fuerza de gravedad es mucho menor (casi la mitad) que la de la Tierra, por lo que pesariamos menos hallandonos en Marte. </p>
+    <script>
+    var usuario = parseFloat(prompt("Cual es tu peso?"))
+    var g_tierra = 9.8;
+    var g_marte = 3.7;
+    var g_jupiter = 24.8;
+    var peso = 56
+    var peso_final;
+    peso_final =  usuario * g_marte / g_tierra;
+    document.write("Tu peso en Marte es de <strong>" + peso_final.toFixed(2) + " Kg.</strong>");
+    </script>
+
+  </body>
+</html>
